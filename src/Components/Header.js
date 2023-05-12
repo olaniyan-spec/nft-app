@@ -1,11 +1,6 @@
 import React from 'react'
 import arrow from '../images/Arrow.jpg'
-import {RxDotsHorizontal} from 'react-icons/rx'
-import avatar1 from '../images/avatar1.jpg'
-import avatar2 from '../images/avatar2.jpg'
-import image1 from '../images/nft1.jpg'
-import {FaEthereum} from 'react-icons/fa'
-import {RxHeart} from 'react-icons/rx'
+
 
 const header = () => {
   return (
