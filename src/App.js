@@ -12,9 +12,9 @@ function App() {
     
       <Routes>
         <Route index element={<Home/>}></Route>
-        <Route path='/' element={<Community/>}></Route>
-        <Route path='/' element={<Explore/>}></Route>
-        <Route path='/' element={<Following/>}></Route>
+        <Route path='/Community' element={<Community/>}></Route>
+        <Route path='/Explore' element={<Explore/>}></Route>
+        <Route path='/Following' element={<Following/>}></Route>
       </Routes>
       
       

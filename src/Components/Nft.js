@@ -11,7 +11,7 @@ import {RxHeart} from 'react-icons/rx'
 const Nft = () => {
   return (
     <section className='Nft'>
-        <div className='nft-container'>
+        <div className='container nft-container'>
                 <div className='box'>
                     <div className='header-icon'>
                         <img src={avater} alt='avater'/>

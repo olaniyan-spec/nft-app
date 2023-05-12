@@ -1,5 +1,6 @@
 import React from 'react'
 import arrow from '../images/Arrow.jpg'
+import {Link} from 'react-router-dom'
 
 
 const header = () => {
@@ -15,7 +16,7 @@ const header = () => {
 and World to CRPTO VERSE</h1>
 <p>Discover the most Expensive NFT sales, Top NFT 
 collection, and NFT marketplace rankings.</p>
-<button>Explore Now</button>
+<Link to='/Explore'><button>Explore Now</button></Link>
         </div>
           <div className='nft-head'>
             <h2>Trending Posts</h2> 

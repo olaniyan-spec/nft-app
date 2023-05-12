@@ -1,4 +1,10 @@
-
+body{
+        width:  80%;
+        position: relative;
+        max-width: 1297.41px;
+        height: 1889.36px;
+        background: #17191B;   
+}
 .header-image{
 position: absolute;
 width: 506.8px;
@@ -9,7 +15,7 @@ background: url(../images/header-image.jpg), #D9D9D9;
 backdrop-filter: blur(152.04px);
 border-radius: 20.2721px;
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .header-image{
         position: absolute;
         width: 271.09px;
@@ -22,6 +28,20 @@ border-radius: 20.2721px;
         transform: rotate(-0.12deg);
     }
 }
+@media screen and (max-width: 600px){
+    .header-image{
+        position: absolute;
+        width: 42.09px;
+        height: 20.03px;
+        left: 28.37px;
+        top: 86.5px;
+        background: url(../images/small-header.jpg), #D9D9D9;
+        backdrop-filter: blur(81.3281px);
+        border-radius: 10.8438px;
+        transform: rotate(-0.12deg);
+    }
+}
+
 
 .first-circle{
 position: absolute;
@@ -32,7 +52,7 @@ top: 467.27px;
 background: #3ABC6B;
 filter: blur(50.6801px);
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .first-circle{
 position: absolute;
 width: 110.06px;
@@ -53,7 +73,7 @@ top: 136.84px;
 background: #61DFF1;
 filter: blur(50.6801px);
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .second-circle{
  position: absolute;
 width: 110.06px;
@@ -63,6 +83,28 @@ top: 74.62px;
 background: #61DFF1;
 filter: blur(27.1094px);
 transform: rotate(-0.12deg);
+    }
+}
+@media screen and (max-width: 600px){
+    .first-circle{
+        position: absolute;
+width: 50.06px;
+height: 36.94px;
+left: 112.51px;
+top: 250.94px;
+background: #3ABC6B;
+filter: blur(27.1094px);
+transform: rotate(-0.12deg);
+    }
+    .second-circle{
+        position: absolute;
+        width: 50.06px;
+        height: 36.94px;
+        left: 112.51px;
+        top: 250.94px;
+        background: #3ABC6B;
+        filter: blur(27.1094px);
+        transform: rotate(-0.12deg);
     }
 }
 .header-right h1{
@@ -82,7 +124,7 @@ color: #FFFFFF;
     color: #3ABC6B
 }
 
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .header-right h1{
 position: absolute;
 width: 290px;
@@ -113,7 +155,7 @@ transform: rotate(-0.12deg);
     line-height: 22px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .header-right p{
 position: absolute;
 width: 197px;
@@ -144,7 +186,7 @@ transform: rotate(-0.12deg)
     border-radius: 20.2721px;
     color: white;
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .header-right button{
         display: flex;
         flex-direction: row;
@@ -196,12 +238,12 @@ top: 755.16px;
 border: 3.04081px solid #61DFF1;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .nft-head h2{
 position: absolute;
 width: 121px;
 height: 22px;
-left: 650.59px;
+left: 950.59px;
 top: 450.63px;
 font-family: 'Open Sans';
 font-style: normal;
@@ -215,7 +257,7 @@ box-sizing: border-box;
 position: absolute;
 width: 168.62px;
 height: 0px;
-left: 766px;
+left: 1066px;
 top: 460.01px;
 border: 1.62656px solid #61DFF1;
 transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -312,13 +354,68 @@ margin-bottom: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 1024px){
     .nft-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        top: 600px;
+        top: 500px;
     }
 }
+@media screen and (max-width: 600px){
+    .nft-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .header-image, .first-circle, .second-circle, .nft-head{
+        display: none;
+    }
+    .header-right h1{
+       position: absolute;
+width: 541px;
+height: 110px;
+left: 32.49px;
+top: 128.06px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40.5441px;
+line-height: 55px;
+color: #FFFFFF;
+}
+.header-right p{
+    position: absolute;
+    width: 367px;
+    height: 44px;
+    left: 32.49px;
+    top: 289.75px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.2176px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.header-right button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14.1904px 39.5305px;
+gap: 10.14px;
+position: absolute;
+width: 178.06px;
+height: 50.38px;
+left: 32.49px;
+top: 400.9px;
+background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
+border-radius: 20.2721px;
+color: white;
+}}
+
+
+    
 .nft-container .box{
     width: 371.99px;
     height: 631.47px;
