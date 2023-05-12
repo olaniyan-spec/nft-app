@@ -10,3 +10,13 @@ body{
     height: 1889.36px;
     background: #17191B;
 }
+@media screen and (max-width: 694px){
+    body{
+        width: 90%;
+position: absolute;
+max-width: 694px;
+height: 1010.64px;
+left: 106.81px;
+top: 94.08px;
+transform: rotate(-0.12deg);
+    }}

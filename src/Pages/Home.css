@@ -1,15 +1,4 @@
 
-@media screen and (max-width: 694px){
-    .header-container{
-position: absolute;
-width: 694px;
-height: 1010.64px;
-left: 106.81px;
-top: 94.08px;
-
-transform: rotate(-0.12deg);
-    }
-}
 .header-image{
 position: absolute;
 width: 506.8px;
