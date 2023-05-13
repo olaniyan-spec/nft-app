@@ -561,6 +561,7 @@ line-height: 20px;
         grid-template-columns: repeat(2, 1fr);
         top: 2650px;
         left: 25px;
+        gap: 3rem;
     }
     .creator-head{
         top: 2550px;
