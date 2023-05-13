@@ -1,8 +1,7 @@
 body{
-        width:  80%;
-        position: relative;
-        max-width: 1297.41px;
-        height: 1889.36px;
+        width: 80%;
+        max-width: 1920px;
+        margin-inline: auto;
         background: #17191B;   
 }
 .header-image{
@@ -16,6 +15,7 @@ backdrop-filter: blur(152.04px);
 border-radius: 20.2721px;
 }
 @media screen and (max-width: 1024px){
+    
     .header-image{
         position: absolute;
         width: 271.09px;
@@ -83,28 +83,6 @@ top: 74.62px;
 background: #61DFF1;
 filter: blur(27.1094px);
 transform: rotate(-0.12deg);
-    }
-}
-@media screen and (max-width: 600px){
-    .first-circle{
-        position: absolute;
-width: 50.06px;
-height: 36.94px;
-left: 112.51px;
-top: 250.94px;
-background: #3ABC6B;
-filter: blur(27.1094px);
-transform: rotate(-0.12deg);
-    }
-    .second-circle{
-        position: absolute;
-        width: 50.06px;
-        height: 36.94px;
-        left: 112.51px;
-        top: 250.94px;
-        background: #3ABC6B;
-        filter: blur(27.1094px);
-        transform: rotate(-0.12deg);
     }
 }
 .header-right h1{
@@ -263,86 +241,7 @@ border: 1.62656px solid #61DFF1;
 transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
-/*
-.nft-container .nft-wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-    margin-top: 3rem;
-}
-.card.nfts-nft{
-    display: flex;
-    margin-top: 2.5rem;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    line-height: 22px;
-    color: #FFFFFF;
-}
-.card img{
-    width: 310px;
-    height: 330px;
-    padding-left: 35px;
-    border-radius: 40px;  
-}
-.card .avater{
-    width: 60px;
-    height: 60px;
-    border-radius: 10rem;
-    transition: all 500ms ease;
-    padding-right: 500px;
-    padding-top: 25px;
-}
 
-
-.card h2,h3{
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-padding-left: 21px;
-}
-.card .eth{
-    color: #61DFF1;
-    font-size: 1.5rem;
-}
-
-.card .right-icon{
-    color: #3ABC6B;
-    text-align: right;
-    padding-right: 25px;
-}
-.card h2 .second-icon{
-    color: #61DFF1;
-    font-size: 1.5rem;
-    padding-left: 130px;
-}
-.card .love{
-font-weight: 400;
-font-size: 16.2176px;
-color: rgba(255, 255, 255, 0.7);
-padding-left: 130px;
-
-}
-.header-icon{
-    display: flex;
-    flex-direction: row;
-    gap: 15rem;
-    padding-top: 1rem;
-}
-.header-icon img{
-    width: 60px;
-height: 60px;
-border-radius: 10rem;
-transition: all 500ms ease;
-margin-bottom: 1rem;
-    
-}
-.header-icon span{
-    color: #3ABC6B;
-    padding-right: 25px;
-}*/
 .Nft{
     top: 817px;
 }
@@ -362,24 +261,23 @@ margin-bottom: 1rem;
     }
 }
 @media screen and (max-width: 600px){
-    body{
-        width: 90%;
-    }
+    
     .nft-container{
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
-        padding-left: 50px;
+        padding-left: 10px;
     }
     .header-image, .first-circle, .second-circle, .nft-head{
         display: none;
     }
     .header-right h1{
-       position: absolute;
-width: 541px;
+position: absolute;
+width: 441px;
 height: 110px;
 left: 32.49px;
 top: 128.06px;
+
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
@@ -393,6 +291,7 @@ color: #FFFFFF;
     height: 44px;
     left: 32.49px;
     top: 289.75px;
+    padding-top: 1rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -412,6 +311,7 @@ width: 178.06px;
 height: 50.38px;
 left: 32.49px;
 top: 400.9px;
+border: 2px solid transparent;
 background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
 border-radius: 20.2721px;
 color: white;
@@ -487,4 +387,203 @@ padding-left: 15px;
 .box h3{
     color: white;
     padding-left: 15px;
+}
+
+.creator-head{ 
+position: absolute;
+width: 342px;
+height: 41px;
+left: 200.95px;
+top: 1510.27px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30.4081px;
+line-height: 41px;
+color: #FFFFFF;
+}
+.creator-head span{
+    color: yellow;
+}
+.creator-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 200.95px;
+    top: 1590.34px;
+}
+
+
+.creator-content{
+    display: flex;
+    gap: 1rem;
+    
+}
+.creator-content img{
+    width: 75.01px;
+    height: 99.33px;
+    left: 101.36px;
+    border-radius: 25%;
+}
+.creator-content .text, span{
+color: white;
+padding-top: 2rem;
+}
+.creator-content small{
+    color: rgba(255, 255, 255, 0.6);
+}
+/*newsletter*/
+
+.news-letter{
+    top: 1950px;  
+}
+.line-one{
+    position: absolute;
+    left: 100px;
+    top: 1900.61px;
+}
+.line-two{
+    position:absolute;
+    left: 100px;
+    top: 2075.54px;
+}
+.circle-one{
+ position: absolute;
+width: 205.76px;
+height: 214.88px;
+left: -36.49px;
+top: 1900.8px;
+background: rgba(58, 188, 107, 0.5);
+filter: blur(50.6801px);
+}
+.circle-two{
+position: absolute;
+width: 205.76px;
+height: 214.88px;
+left: 1070.9px;
+top: 2100.98px;
+background: rgba(97, 223, 241, 0.5);
+filter: blur(50.6801px);
+}
+.news-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    gap: 150px;
+width: 74px;
+height: 49px;
+left: 200.27px;
+top: 1980.25px;
+color: #FFFFFF;
+font-family: 'Inter';
+font-style: normal;
+}
+
+
+.numbers{
+    display: flex;
+    gap: 0.5rem;
+}
+.numbers h3{
+    font-weight: 600;
+font-size: 40.5441px;
+line-height: 49px;
+}
+.numbers small{
+    font-weight: 300;
+font-size: 15.204px;
+line-height: 18px;
+padding-top: 0.5rem;
+}
+
+.small-line{
+    padding-left: 200px;
+    padding-top: 1280px;
+}
+.small-line2{
+    padding-left: 300px;
+}
+.small-line3{
+    padding-left: 280px;
+}
+   
+.newsletter-container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 958.87px;
+    height: 180.42px;
+    left: 269.27px;
+    top: 2200.34px;
+    background: linear-gradient(91.93deg, rgba(58, 188, 107, 0.5) 21.16%, rgba(97, 223, 241, 0.5) 100%);
+    backdrop-filter: blur(5.06802px);
+    border-radius: 20.2721px;  
+}
+
+
+.newsletter-left{
+position: absolute;
+font-family: 'Inter';
+font-style: normal;
+color: #FFFFFF;
+padding: 35px ;
+padding-top: 35px;
+}
+.newsletter-left h2{
+    font-weight: 600;
+font-size: 40.5441px;
+line-height: 49px;
+}
+.newsletter-left p{
+    font-weight: 400;
+font-size: 16.2176px;
+line-height: 20px;
+}
+@media screen and (max-width: 1024px){
+    .creator-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        top: 1450px;
+    }
+    .creator-head{
+        top: 1300px;
+        left: 25px;
+    }
+    .line-container{
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width:600px){
+    .creator-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        top: 2650px;
+        left: 25px;
+    }
+    .creator-head{
+        top: 2550px;
+    }
+    .news-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ;
+        gap: 50px;
+        top: 3300px;
+        left: 25px;
+        font-size: 20px;
+        font-weight: 20px;
+        padding-top: 3rem;
+    }
+    .numbers h3{
+        font-weight: 200;
+    font-size: 20.5441px;
+    line-height: 29px;
+    }
+    .numbers small{
+        font-weight: 50;
+    font-size: 10.204px;
+    line-height: 13px;
+    padding-top: 0.5rem;}
+    
 }
