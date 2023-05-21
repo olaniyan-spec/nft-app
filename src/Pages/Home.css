@@ -1,426 +1,118 @@
-body{
-        width: 80%;
-        max-width: 1920px;
-        margin-inline: auto;
-        background: #17191B;   
+.header-container{
+    padding: 65px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.header-image{
-position: absolute;
-width: 506.8px;
-height: 469.3px;
-left: 52.71px;
-top: 159.14px;
-background: url(../images/header-image.jpg), #D9D9D9;
-backdrop-filter: blur(152.04px);
-border-radius: 20.2721px;
+.header-image img{
+width: 306.8px;
+height: 269.3px;
 }
-@media screen and (max-width: 1024px){
-    
-    .header-image{
-        position: absolute;
-        width: 271.09px;
-        height: 251.03px;
-        left: 28.37px;
-        top: 86.5px;
-        background: url(../images/small-header.jpg), #D9D9D9;
-        backdrop-filter: blur(81.3281px);
-        border-radius: 10.8438px;
-        transform: rotate(-0.12deg);
-    }
-}
-@media screen and (max-width: 600px){
-    .header-image{
-        position: absolute;
-        width: 42.09px;
-        height: 20.03px;
-        left: 28.37px;
-        top: 86.5px;
-        background: url(../images/small-header.jpg), #D9D9D9;
-        backdrop-filter: blur(81.3281px);
-        border-radius: 10.8438px;
-        transform: rotate(-0.12deg);
-    }
-}
-
-
-.first-circle{
-position: absolute;
-width: 205.76px;
-height: 214.88px;
-left: 396.32px;
-top: 467.27px;
-background: #3ABC6B;
-filter: blur(50.6801px);
-}
-@media screen and (max-width: 1024px){
-    .first-circle{
-position: absolute;
-width: 110.06px;
-height: 114.94px;
-left: 212.51px;
-top: 250.94px;
-background: #3ABC6B;
-filter: blur(27.1094px);
-transform: rotate(-0.12deg);
-    }
-}
-.second-circle{
-position: absolute;
-width: 205.76px;
-height: 214.88px;
-left: 10.14px;
-top: 136.84px;
-background: #61DFF1;
-filter: blur(50.6801px);
-}
-@media screen and (max-width: 1024px){
-    .second-circle{
- position: absolute;
-width: 110.06px;
-height: 114.94px;
-left: 5.57px;
-top: 74.62px;
-background: #61DFF1;
-filter: blur(27.1094px);
-transform: rotate(-0.12deg);
-    }
-}
-.header-right h1{
-position: absolute;
-width: 541px;
-height: 110px;
-left: 632.49px;
-top: 228.06px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40.5441px;
-line-height: 55px;
-color: #FFFFFF;
-}
-.header-right span{
-    color: #3ABC6B
-}
-
-@media screen and (max-width: 1024px){
-    .header-right h1{
-position: absolute;
-width: 290px;
-height: 60px;
-left: 338.58px;
-top: 122.73px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 21.6875px;
-line-height: 30px;
-color: #FFFFFF;
-transform: rotate(-0.12deg);
-
-    }
-}
-
-.header-right p{
-    position: absolute;
-    width: 367px;
-    height: 44px;
-    left: 632.49px;
-    top: 353.75px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16.2176px;
-    line-height: 22px;
-    color: #FFFFFF;
-}
-@media screen and (max-width: 1024px){
-    .header-right p{
-position: absolute;
-width: 197px;
-height: 24px;
-left: 338.71px;
-top: 189.96px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 8.675px;
-line-height: 12px;
-color: #FFFFFF;
-transform: rotate(-0.12deg)
-    }}
-.header-right button{
+.header-right{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14.1904px 39.5305px;
-    gap: 10.14px;
-    position: absolute;
-    width: 178.06px;
-    height: 50.38px;
-    left: 632.49px;
-    top: 439.9px;
-    background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
-    border-radius: 20.2721px;
+    flex-direction: column;
+    gap: 1rem;
     color: white;
 }
-@media screen and (max-width: 1024px){
-    .header-right button{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 7.59062px 21.1453px;
-        gap: 5.42px;
-        position: absolute;
-        width: 95.29px;
-        height: 27.18px;
-        left: 338.33px;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 8.675px;
-        line-height: 12px;
-        top: 235.31px;
-        background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
-        border-radius: 10.8438px;
-    }
-}
-/*nft*/
-.nft-head{
-    display: flex;
-    flex-direction: row;
-    top: 735;
-    position: relative;
-}
-.nft-head h2{
-position: absolute;
-width: 225px;
-height: 41px;
-left: 747.03px;
-top: 735.88px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30.4081px;
-line-height: 41px;
-color: #FFFFFF;
-}
-.nft-head img{
-box-sizing: border-box;
-position: absolute;
-width: 315.23px;
-height: 0px;
-left: 950px;
-top: 755.16px;
-border: 3.04081px solid #61DFF1;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-@media screen and (max-width: 1024px){
-    .nft-head h2{
-position: absolute;
-width: 121px;
-height: 22px;
-left: 950.59px;
-top: 450.63px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16.2656px;
-line-height: 22px;
-color: #FFFFFF;
-    }
-    .nft-head img{
-box-sizing: border-box;
-position: absolute;
-width: 168.62px;
-height: 0px;
-left: 1066px;
-top: 460.01px;
-border: 1.62656px solid #61DFF1;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
-}
-
-.Nft{
-    top: 817px;
-}
-.nft-container{
-    width: 100%;
-    height: auto;
-    top: 800px;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-@media screen and (max-width: 1024px){
-    .nft-container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        top: 500px;
-    }
-}
-@media screen and (max-width: 600px){
-    
-    .nft-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        padding-left: 10px;
-    }
-    .header-image, .first-circle, .second-circle, .nft-head{
-        display: none;
-    }
-    .header-right h1{
-position: absolute;
-width: 441px;
-height: 110px;
-left: 32.49px;
-top: 128.06px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40.5441px;
-line-height: 55px;
-color: #FFFFFF;
-}
 .header-right p{
-    position: absolute;
-    width: 367px;
-    height: 44px;
-    left: 32.49px;
-    top: 289.75px;
-    padding-top: 1rem;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.2176px;
-    line-height: 22px;
-    color: #FFFFFF;
+    font-size: 0.8rem;
 }
 .header-right button{
-display: flex;
-flex-direction: row;
+background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
+border-radius: 20.2721px;
 justify-content: center;
 align-items: center;
 padding: 14.1904px 39.5305px;
 gap: 10.14px;
-position: absolute;
-width: 178.06px;
-height: 50.38px;
-left: 32.49px;
-top: 400.9px;
-border: 2px solid transparent;
-background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
-border-radius: 20.2721px;
 color: white;
-}}
-
-
-    
-.nft-container .box{
-    width: 371.99px;
-    height: 631.47px;
-    margin: 20px;
-    border: 1.0136px solid rgba(97, 223, 241, 0.5);
-    border-radius: 20.2721px;
+}
+.header-right h1 span{
+    color: yellowgreen
 }
 
-.nft-container :hover{
-   background-color: #394041;
+/*nft*/
+.nft-head{
+    margin-top: 3rem;
+    display: flex; 
+   gap: 1rem;
+    padding-left: 750px;
+}.nft-head h2{
+    color: white;
 }
-.box .nft1, .nft2, .nft3{
-width: 340.57px;
-height: 330.43px;
-left: 86.16px;
-padding-left: 15px;
-}
-.header-icon img{
-width: 30px;
-height: 30px;
-border-radius: 20rem;
-transition: all 500ms ease;
-margin-bottom: 1rem;
-padding-left: 15px;   
-}
-.header-icon .avater{
-    left: 129px;
-    padding-left: 0.5px;
+.nft-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
 }
 .header-icon{
     display: flex;
-    flex-direction: row;
-    padding-top: 1rem;
+    gap: 16rem;
 }
 .header-icon span{
+    padding-top: 0;
     color: #3ABC6B;
-    padding-left: 250px;
 }
-.box h2 {
+.header-icon img{
+width: 30.82px;
+height: 30.82px;
+object-fit: cover;
+background: transparent;
+}
+.body1{
+display: flex;
+    gap: 10rem;
+}
+.nfts-nft{
     color: white;
-    padding-left: 15px;
-    margin-bottom: 3rem;
+}
+.body2{
+    display: flex;
+    gap: 12rem;
+    margin-top: 1.5rem;
+}
+.body1 span{
+    padding-top: 0;
+    color: #61DFF1;
+}
+.body2 span{
+    padding-top: 0;
+    color: gray;
+}
+.body2 .eth{
+    color: #61DFF1;
+    font-size: 1.3rem;
+}
+ img{
+    width: 340.57px;
+height: 330.43px;
+object-fit: cover;
+}
+.creators{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.creator-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    justify-content: center;
     margin-top: 2rem;
+    align-items: center;
 }
-.box .second-icon{
-        color: #61DFF1;
-        font-size: 1.5rem;
-        padding-left: 130px;
-}
-.box .sec-icon{
-    color: #61DFF1;
-    font-size: 1.5rem;
-    padding-left: 175px;
-}
-.box .third-icon{
-    color: #61DFF1;
-    font-size: 1.5rem;
-    padding-left: 200px;
-}
-.box .love{
-        font-weight: 400;
-        font-size: 16.2176px;
-        color: rgba(255, 255, 255, 0.7);
-        padding-left: 175px;
-}
-.box h3{
-    color: white;
-    padding-left: 15px;
-}
-
 .creator-head{ 
-position: absolute;
-width: 342px;
-height: 41px;
-left: 200.95px;
-top: 1510.27px;
-font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 30.4081px;
+font-size: 20px;
 line-height: 41px;
 color: #FFFFFF;
 }
 .creator-head span{
     color: yellow;
 }
-.creator-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 200.95px;
-    top: 1590.34px;
-}
-
-
 .creator-content{
     display: flex;
-    gap: 1rem;
-    
+    gap: 1rem; 
 }
 .creator-content img{
     width: 75.01px;
@@ -436,56 +128,39 @@ padding-top: 2rem;
     color: rgba(255, 255, 255, 0.6);
 }
 /*newsletter*/
-
 .news-letter{
-    top: 1950px;  
-}
-.line-one{
-    position: absolute;
-    left: 100px;
-    top: 1900.61px;
-}
-.line-two{
-    position:absolute;
-    left: 100px;
-    top: 2075.54px;
-}
-.circle-one{
- position: absolute;
-width: 205.76px;
-height: 214.88px;
-left: -36.49px;
-top: 1900.8px;
-background: rgba(58, 188, 107, 0.5);
-filter: blur(50.6801px);
-}
-.circle-two{
-position: absolute;
-width: 205.76px;
-height: 214.88px;
-left: 1070.9px;
-top: 2100.98px;
-background: rgba(97, 223, 241, 0.5);
-filter: blur(50.6801px);
+    margin-top: 3rem;
+    padding: 1rem;
+    padding-left: 0px;
 }
 .news-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    position: absolute;
-    gap: 150px;
-width: 74px;
-height: 49px;
-left: 200.27px;
-top: 1980.25px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
 color: #FFFFFF;
-font-family: 'Inter';
-font-style: normal;
+margin-top: 0px;
 }
-
-
+.circles{
+    display: flex;
+}
+.circle-one{
+    width: 205.76px;
+    height: 114.88px;
+   position: absolute;
+    background: rgba(58, 188, 107, 0.5);
+    filter: blur(50.6801px);
+    }
+    .circle-two{
+        width: 205.76px;
+        height: 114.88px;
+        margin-left: 1000.9px;
+        background: rgba(97, 223, 241, 0.5);
+        filter: blur(50.6801px);
+        }
 .numbers{
     display: flex;
     gap: 0.5rem;
+    margin-top: 0px;
+    margin-left: 5rem;
 }
 .numbers h3{
     font-weight: 600;
@@ -499,92 +174,112 @@ line-height: 18px;
 padding-top: 0.5rem;
 }
 
-.small-line{
-    padding-left: 200px;
-    padding-top: 1280px;
-}
-.small-line2{
-    padding-left: 300px;
-}
-.small-line3{
-    padding-left: 280px;
-}
-   
+
 .newsletter-container{
     box-sizing: border-box;
-    position: absolute;
     width: 958.87px;
     height: 180.42px;
-    left: 269.27px;
-    top: 2200.34px;
     background: linear-gradient(91.93deg, rgba(58, 188, 107, 0.5) 21.16%, rgba(97, 223, 241, 0.5) 100%);
     backdrop-filter: blur(5.06802px);
     border-radius: 20.2721px;  
+    margin-left: 9rem;
 }
-
-
+.newsletter-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 30px;
+    color: white;
+}
 .newsletter-left{
-position: absolute;
-font-family: 'Inter';
-font-style: normal;
-color: #FFFFFF;
-padding: 35px ;
-padding-top: 35px;
+    margin-left: 2rem;
 }
-.newsletter-left h2{
-    font-weight: 600;
-font-size: 40.5441px;
-line-height: 49px;
+.newsletter-left h1{
+    font-weight: 700;
+    font-size: 2rem;
 }
-.newsletter-left p{
-    font-weight: 400;
-font-size: 16.2176px;
-line-height: 20px;
+.newsletter-right{
+    margin-top: 2rem;
+    margin-left: 3rem;
 }
 @media screen and (max-width: 1024px){
-    .creator-container{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        top: 1450px;
+    .header-container{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 2rem;
     }
-    .creator-head{
-        top: 1300px;
-        left: 25px;
+    .nft-container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin-left: 1.5rem; 
     }
-    .line-container{
-        padding-top: 100px;
+    .newsletter-container{
+        margin-left: 2rem;
     }
 }
-@media screen and (max-width:600px){
-    .creator-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        top: 2650px;
-        left: 25px;
-        gap: 3rem;
+@media screen and (max-width: 600px){
+    .header-container{
+        grid-template-columns: 1fr;
+        margin-left: 2rem;
     }
-    .creator-head{
-        top: 2550px;
-    }
-    .news-container{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr) ;
-        gap: 50px;
-        top: 3300px;
-        left: 25px;
-        font-size: 20px;
-        font-weight: 20px;
-        padding-top: 3rem;
-    }
-    .numbers h3{
-        font-weight: 200;
-    font-size: 20.5441px;
-    line-height: 29px;
-    }
-    .numbers small{
-        font-weight: 50;
-    font-size: 10.204px;
-    line-height: 13px;
-    padding-top: 0.5rem;}
-    
+        .nft-container{
+            grid-template-columns:  1fr;
+            gap: 1rem;
+            margin-left: 2.5rem; 
+        }
+        .creator-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .nft-head{
+            margin-top: 3rem;
+            display: flex; 
+           gap: 1rem;
+            padding-left: 350px;
 }
+.news-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #FFFFFF;
+    margin-top: 0px;
+    font-size: 1rem;
+    margin-left: 0px;
+    }
+    .numbers{
+        display: flex;
+        gap: 0.3rem;
+        margin-top: 0px;
+        margin-left: 2.3rem;
+    }
+        .numbers h3{
+            font-weight: 100;
+        font-size: 20.5441px;
+        line-height: 49px;
+        }
+        .numbers small{
+            font-weight: 100;
+        font-size: 10.204px;
+        line-height: 15px;
+        padding-top: 0.5rem;
+        }
+        .newsletter-container{
+            width: 500.27px;
+            height: 96.39px;
+            backdrop-filter: blur(5.06802px);
+            margin-left: 1rem;
+        }
+        .newsletter-wrapper{
+            padding: 10px 10px;
+            margin-top: 0rem;
+        }
+        .newsletter-left{
+            margin-left: 1rem;
+        }
+        .newsletter-left h1{
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .newsletter-left p{
+            font-size: 10px;
+        }
+        .newsletter-right{
+            margin-top: 1rem;
+            margin-left: 1rem;
+    }}

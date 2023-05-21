@@ -21,7 +21,6 @@ const Creators = () => {
                     <h4>Silver Bird</h4>
                     <small>$30,000,000</small>
                 </div>
-                
             </div>
             <div className='creator-content'>
                 <span>2</span> <img src={cr2} alt='creator'/>
