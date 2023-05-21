@@ -44,9 +44,9 @@ const Newsletter = () => {
                         variant="contained"
                         aria-label="Disabled elevation buttons"
                         >
-                        <Button sx={{background:'linear-gradient(91.84deg, #61DFF1 0%, #3ABC6B 100%)', padding:2}}><input type='text' placeholder='Enter your email address'/></Button>
+                        <Button sx={{background:'linear-gradient(91.84deg, #61DFF1 0%, #3ABC6B 100%)', height: 30}}><input type='text' placeholder='Enter your email address'/></Button>
                         <Button sx={{color:'black',
-                    fontSize:10, background:'linear-gradient(91.84deg, #61DFF1 0%, #3ABC6B 100%)'}}>Subscribe</Button>
+                    fontSize:10, background:'linear-gradient(91.84deg, #61DFF1 0%, #3ABC6B 100%)', width:80, height:30}}>Subscribe</Button>
                         </ButtonGroup>
                     </div>
                    

@@ -6,6 +6,10 @@ import {Link} from 'react-router-dom'
 const header = () => {
   return (
     <header className='container header-container'>
+      <div className='header-circle'>
+        <div className='f-circle'></div>
+        <div className='s-circle'></div>
+      </div>
         <div className='header-left'>
             <div className='header-image'>
               <img src={headerImage} alt='header'/>

@@ -3,6 +3,7 @@ import Home from './Pages/Home';
 import Community from './Pages/Community';
 import Following from './Pages/Following';
 import Explore from './Pages/Explore';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/Explore' element={<Explore/>}></Route>
         <Route path='/Following' element={<Following/>}></Route>
       </Routes>
+      <Footer/>
       
       
       </BrowserRouter>
