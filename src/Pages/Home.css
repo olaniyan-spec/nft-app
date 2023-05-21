@@ -290,6 +290,7 @@ background: transparent;
     .header-container{
         grid-template-columns: 1fr;
         margin-left: 0rem;
+        padding-top: 10px;
     }
         .nft-container{
             grid-template-columns:  1fr;

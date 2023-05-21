@@ -4,13 +4,14 @@ import Community from './Pages/Community';
 import Following from './Pages/Following';
 import Explore from './Pages/Explore';
 import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-    
+    <Navbar/>
       <Routes>
         <Route index element={<Home/>}></Route>
         <Route path='/Community' element={<Community/>}></Route>

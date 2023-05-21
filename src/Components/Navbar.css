@@ -1,17 +1,92 @@
-.nav-wrapper{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 35.48px;
-position: absolute;
-width: 1154.49px;
-height: 50.38px;
-left: 70.95px;
-top: 25.34px;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 20px 20px;
+    margin-left: 10rem;
 }
-
-
-
-
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links li{
+    position: relative;
+      padding: 0 20px;
+      margin-left: 10px;
+ }
+.nav-links li a{
+    color: white;
+}
+.nav-links input{
+padding: 9.12243px 10.136px;
+gap: 20.27px;
+width: 193.94px;
+color: white;
+height: 42.57px;
+background: rgba(255, 255, 255, 0.16);
+border: 2.02721px solid rgba(255, 255, 255, 0.5);
+border-radius: 20.2721px;
+}
+.nav-links .create{
+justify-content: center;
+align-items: center;
+padding: 14.1904px 39.5305px;
+gap: 10.14px;
+width: 131.06px;
+height: 50.38px;
+background: linear-gradient(101.15deg, rgba(97, 223, 241, 0.62) 0%, rgba(58, 188, 107, 0.79) 97.74%);
+border-radius: 20.2721px;
+}
+.nav-links .sign{
+        justify-content: center;
+        border: 1px solid #3ABC6B;
+        align-items: center;
+        padding: 14.1904px 39.5305px;
+        gap: 10.14px;
+        width: 131.06px;
+        height: 50.38px;
+        border-radius: 20.2721px;
+}
+.nav-toggle{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    nav{
+        margin-bottom: 0rem;
+        margin-left: 18rem;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: 0px;
+        width: 250px;
+        height: 100vh;
+        background: black, transparent;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 1px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-links li{
+        margin-bottom: 25px;
+        cursor: pointer;
+    }
+    .nav-toggle{
+        background: transparent;
+        display: block;
+        font-size: 2rem;
+        font-weight: 600;
+        color:white;
+       }
+       .show-nav{
+        display: flex;
+       }
+       .hide-nav{
+        display: none;
+       }
+}
