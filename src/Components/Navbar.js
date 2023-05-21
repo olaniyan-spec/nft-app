@@ -14,8 +14,8 @@ const Navbar = () => {
           <li><NavLink to='/explore'>Explore</NavLink></li>
           <li><NavLink to='/following'>following</NavLink></li>
           <li><NavLink to='/community'>community</NavLink></li>
-          <li><Link to='/' className='create'>Create</Link></li>
-          <li><Link to='/' className='sign'>Sign in</Link></li>
+          <li><Link to='/Home' className='create'>Create</Link></li>
+          <li><Link to='/Home' className='sign'>Sign in</Link></li>
         </ul>
         <button className='nav-toggle' onClick={()=>setNavshowing(prev=>!prev)}>
                     { navShowing ? <MdOutlineClose/> : <GoThreeBars/>}
